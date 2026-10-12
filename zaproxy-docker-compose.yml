@@ -1,0 +1,21 @@
+name: pentest-${STACK}
+
+services:
+  zap-baseline:
+    image: ghcr.io/zaproxy/zaproxy:stable
+    extra_hosts:
+      - "david-dev.localtest.me:host-gateway"
+    working_dir: /zap/wrk
+    volumes:
+      - ${ZAP_REPORT_DIR:?ZAP_REPORT_DIR is required}:/zap/wrk:rw
+    tty: true
+    command:
+      - zap-baseline.py
+      - -t
+      - ${APP_BASE_URL:?APP_BASE_URL is required}
+      - -j
+      - --ajax-spider
+      - -r
+      - zap-baseline.html
+      - -J
+      - zap-baseline.json
