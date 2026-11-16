@@ -19,7 +19,7 @@
   {
     "id": "saas-platform-engineer",
     "slug": "saas-platform-engineer",
-    "status": "published",
+    "status": "hidden",
     "sortOrder": 1,
     "title": "SaaS/Platform Engineer",
     "summary": "Best for senior backend, platform, API, cloud, and multi-tenant SaaS roles.",
@@ -36,7 +36,7 @@
   {
     "id": "sql-server-data-platform",
     "slug": "sql-server-data-platform",
-    "status": "published",
+    "status": "hidden",
     "sortOrder": 2,
     "title": "SQL Server/Data Platform",
     "summary": "Best for SQL Server, database performance, data platform, and database engineering roles.",
@@ -53,7 +53,7 @@
   {
     "id": "it-network-administrator",
     "slug": "it-network-administrator",
-    "status": "published",
+    "status": "hidden",
     "sortOrder": 3,
     "title": "IT/Network Administrator",
     "summary": "Best for IT support, network administration, and systems engineering roles.",

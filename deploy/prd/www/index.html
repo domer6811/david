@@ -17,8 +17,8 @@
 <!-- /PM:TRACKING-CONSENT-PART1 -->
 <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>David Omer | Software & Data Platform</title>
-  <meta name="description" content="Personal career website for David Omer — senior software, SaaS, and data platform engineer with 15+ years of experience." />
+  <title>David Omer | Fractional Partner</title>
+  <meta name="description" content="David Omer is a fractional partner for engineering teams, with nearly 40 years of experience fixing platform, integration, and data problems." />
 	<link rel="canonical" href="https://www.example.com/preferred-page/" />
     <link rel="stylesheet" href="assets/css/styles.css?v=034" />
     <link rel="stylesheet" href="assets/css/cookie-consent-overrides.css?v=034" />
@@ -44,16 +44,17 @@
     <div class="wrap nav-inner">
       <div class="brand">
         <a href="#top">David Omer</a>
-        <small>Software • Middleware • Data Platforms</small>
+        <small>Fractional Partner</small>
       </div>
       <div class="nav-links">
         <a href="#top">Home</a>
-        <a href="#focus">Focus Areas</a>
+        <a href="#focus">Where I Help</a>
+        <a href="#engage">Engagements</a>
         <a href="#results">Results</a>
         <b><a href="#portfolio">Portfolio</a></b>
         <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
-        <a href="#resumes">Resumes</a>
+        <a href="#resumes">Resume</a>
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
       </div>
@@ -65,32 +66,32 @@
     <section id="top">
     <div class="wrap hero-grid">
         <div class="hero-card">
-        <div class="eyebrow">Open to Senior Engineering Opportunities</div>
-        <h1>Senior software and data platform engineer.</h1>
+        <div class="eyebrow">Taking New Engagements</div>
+        <h1>Fractional partner for platform, integration &amp; data.</h1>
         <p>
-            I bring 15+ years of experience designing and supporting enterprise and mobile applications, and data-driven systems. My background spans scalable SaaS platforms, .NET backend development, and SQL Server performance.
+            I've built software for nearly 40 years, through client/server, enterprise integration, SaaS, cloud, and now AI. I join engineering teams part-time as a senior technical partner.
         </p>
         <p>
-            I’m strongest where software, data, and operations meet: building reliable backend services, improving system performance, and diagnosing complex production issues.
+            I take the platform, integration, and data problems that are slowing a product down, fix them, and leave the team with architecture it can maintain without me.
         </p>
         <div class="cta-row">
-            <a class="btn btn-primary" href="mailto:davidomer@solutionsetal.com"><center>Contact Me<br /> 	solutionsetal.com</center></a>
-            <a class="btn btn-secondary" href="#resumes">View Targeted Resumes</a>
+            <a class="btn btn-primary" href="mailto:davidomer@solutionsetal.com">Start a Conversation</a>
+            <a class="btn btn-secondary" href="#focus">See Where I Help</a>
         </div>
         </div>
 
         <aside class="hero-side hero-card">
         <div class="metric">
-            <strong>15+ years</strong>
-            <span>Building enterprise, mobile, integration, and data platform systems.</span>
+            <strong>Nearly 40 years</strong>
+            <span>Through every major platform shift: client/server, enterprise integration, SaaS, cloud, and AI.</span>
         </div>
         <div class="metric">
-            <strong>.NET • SQL Server • APIs</strong>
-            <span>Hands-on across backend services, database performance, reporting, and integration layers.</span>
+            <strong>400+ interfaces</strong>
+            <span>Integrations built across healthcare, government, and commercial systems, including HL7 in regulated environments.</span>
         </div>
         <div class="metric">
-            <strong>T-SQL • SSIS • SSRS</strong>
-            <span>Strong in SQL performance tuning, operational reporting, data movement, and production troubleshooting.</span>
+            <strong>30+ → 1–2 API calls</strong>
+            <span>Per document, after a caching redesign that eliminated SharePoint Online throttling.</span>
         </div>
         </aside>
     </div>
@@ -99,9 +100,13 @@
       <div class="wrap">
         <h2>What I bring</h2>
         <p class="section-lead">
-          I combine 15+ years of hands-on enterprise technology delivery with architectural judgment across software, data platforms, and business-critical systems. My career began in systems administration and internal business systems development, then grew into aaS platform architecture, SQL performance, cloud initiatives, and production troubleshooting.
+          Most of the problems I'm brought in to solve are ones I've already solved, often more than once and on more than one generation of technology. That's the advantage of fractional senior experience: you get the judgment without the learning curve.
         </p>
         <div class="grid-3">
+          <div class="card">
+            <h3>Judgment without the learning curve</h3>
+            <p>Four decades of pattern recognition means faster diagnosis, fewer dead ends, and decisions that hold up as you grow.</p>
+          </div>
           <div class="card">
             <h3>Hands-on architecture</h3>
             <p>I design systems with an operator’s understanding of reliability, maintainability, data flow, and the realities of supporting production environments.</p>
@@ -116,22 +121,73 @@
 
     <section id="focus">
       <div class="wrap">
-        <h2>Primary focus areas</h2>
+        <h2>Where I help</h2>
         <p class="section-lead">
-          These two tracks represent the strongest themes across my resume portfolio.
+          The situations teams usually bring me in for, what I do about them, and where I've done it before.
         </p>
         <div class="grid-3">
+          <div class="card usecase">
+            <h3>Your SaaS product is outgrowing its architecture</h3>
+            <p><strong>When:</strong> new customers mean custom code, performance drops as tenants are added, or one big customer's workload slows everyone else down.</p>
+            <p><strong>What I do:</strong> design multi-tenant data models, isolate tenant workloads, and separate reporting from transactional paths so growth doesn't mean a rewrite.</p>
+            <p><strong>Proof:</strong> led architecture of a multi-tenant SaaS QA auditing platform used by thousands of people, with a shared reporting layer that served every tenant without hurting transactional performance.</p>
+          </div>
+          <div class="card usecase">
+            <h3>Integrations fail, get throttled, or have to be babysat</h3>
+            <p><strong>When:</strong> third-party APIs return 429/503 errors, syncs fail overnight, or one engineer is the only person who understands the middleware.</p>
+            <p><strong>What I do:</strong> redesign integration layers around caching, messaging, retries, and observability.</p>
+            <p><strong>Proof:</strong> built a distributed caching framework that cut SharePoint Online API calls from 30+ per document to 1–2, eliminating throttling errors and greatly increasing throughput.</p>
+          </div>
+          <div class="card usecase">
+            <h3>Your systems don't talk to each other</h3>
+            <p><strong>When:</strong> after an acquisition, an ERP rollout, or years of point-to-point connections that nobody wants to touch.</p>
+            <p><strong>What I do:</strong> design event-driven and message-based integration architecture, plus migration paths off legacy platforms.</p>
+            <p><strong>Proof:</strong> built 400+ system interfaces across healthcare, government, and commercial clients, led legacy-to-SAP integration at Fluor, and worked on NASA's IFMP integration architecture.</p>
+          </div>
+          <div class="card usecase">
+            <h3>The database is the bottleneck</h3>
+            <p><strong>When:</strong> slow queries, reports that time out, or rising cloud database costs.</p>
+            <p><strong>What I do:</strong> set up SQL performance standards, indexing strategy, and data-access patterns, then teach them to the team.</p>
+            <p><strong>Proof:</strong> created SQL performance standards and tuning practices across large Azure SQL and SQL Server systems.</p>
+          </div>
+          <div class="card usecase">
+            <h3>You need a technical co-pilot to get from idea to product</h3>
+            <p><strong>When:</strong> a founder or business owner has a validated idea but no senior architect to make the early decisions that are expensive to undo.</p>
+            <p><strong>What I do:</strong> architecture, MVP build, cloud setup, and deployment pipelines, sized to the stage you're at.</p>
+            <p><strong>Proof:</strong> designed and built the Portmason™ platform and launched its first application, ReviewNudge™, end to end.</p>
+          </div>
+          <div class="card usecase">
+            <h3>You want AI to make your team faster, not just add noise</h3>
+            <p><strong>When:</strong> the team is experimenting with GenAI but hasn't changed how work actually gets done.</p>
+            <p><strong>What I do:</strong> fit AI-assisted development and automation into real workflows, such as data processing, reporting, and operational tasks.</p>
+            <p><strong>Proof:</strong> use AI-assisted workflows daily in my own platform work to automate data processing and reduce manual work.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="engage">
+      <div class="wrap">
+        <h2>How we can work together</h2>
+        <p class="section-lead">
+          Engagements sized to the problem, from a single fix to an ongoing seat at the table.
+        </p>
+        <div class="grid-4">
           <div class="card">
-            <h3>SaaS & backend platforms</h3>
-            <p>
-              Backend-focused full stack and platform engineering using C#/.NET, relational data models, RESTful APIs, reusable services, reporting workflows, and scalable multi-tenant architecture.
-            </p>
+            <h3>Fractional architect</h3>
+            <p>A set number of days per week or month, embedded with your team as your senior platform voice.</p>
           </div>
           <div class="card">
-            <h3>SQL Server & data platforms</h3>
-            <p>
-              Query tuning, indexing strategy, relational database design, analytics layers, reporting workloads, and platform reliability across on-premise and cloud database environments.
-            </p>
+            <h3>Architecture assessment</h3>
+            <p>A 2–4 week review of your platform, integrations, or data layer, ending with a prioritized roadmap.</p>
+          </div>
+          <div class="card">
+            <h3>Targeted rescue</h3>
+            <p>A fixed-scope engagement on one problem, such as a throttled integration, a slow database, or a stalled migration.</p>
+          </div>
+          <div class="card">
+            <h3>Advisory retainer</h3>
+            <p>Ongoing access for design reviews, hiring support, and technical due diligence.</p>
           </div>
         </div>
       </div>
@@ -140,7 +196,7 @@
     <section id="results">
       <div class="wrap">
         <h2>Results</h2>
-        <p class="section-lead">A few examples pulled directly from my resume set.</p>
+        <p class="section-lead">A few outcomes from past engagements.</p>
         <div class="grid-2">
           <div class="card">
             <h3>Near real-time data flow</h3>
@@ -236,15 +292,15 @@ and <span class="brand-ref">Steton</span>.
     <section id="experience">
 
       <div class="wrap">
-        <h2>Experience highlights</h2>
+        <h2>Four decades, every major platform shift</h2>
         <p class="section-lead">
-          A condensed view of the roles most relevant to software, middleware, and data platform positions.
+          From client/server and enterprise integration to SaaS, cloud, and AI, the full career behind the judgment.
         </p>
         <div class="timeline">
           <article class="job">
-            <div class="dates">2024 – 2026</div>
+            <div class="dates">2024 – Present</div>
             <div>
-              <h3>Et al Solutions LLC <span>— Senior Consultant</span></h3>
+              <h3>Et al Solutions LLC <span>— Founder & Principal Architect</span></h3>
               <ul> 
 				<li>Created the Portmason™ platform&nbsp;&nbsp;<a style="font-weight:700;color:#eef2ff" href="https://www.solutionsetal.com/#lab" target="_blank">www.solutionsetal.com</a>&nbsp;&nbsp;and launched ReviewNudge™&nbsp;&nbsp;<a style="font-weight:700;color:#eef2ff" href="https://reviewnudge.solutionsetal.com" target="_blank">reviewnudge.solutionsetal.com</a>, &nbsp;&nbsp;the platform's first application.</li>
 				<li>Designed and implemented .NET applications, APIs, integration components, automation workflows, and relational data solutions using cloud-ready architectural patterns.</li>
@@ -295,7 +351,7 @@ and <span class="brand-ref">Steton</span>.
             </div>
           </article>
 
-<!--          <article class="job">
+          <article class="job">
             <div class="dates">2002 – 2003</div>
             <div>
               <h3>SeeBeyond <span>— Senior Consultant</span></h3>
@@ -331,27 +387,42 @@ and <span class="brand-ref">Steton</span>.
           </article>
 
           <article class="job">
-            <div class="dates">1985 – 1999</div>
+            <div class="dates">1996 – 1999</div>
             <div>
-              <h3>PM Realty Group and Earlier Career <span>— Systems Administration & Internal Business Systems Development</span></h3>
+              <h3>PM Realty Group <span>— MIS Manager</span></h3>
               <ul>
-                <li>Began in systems administration and technical support, supporting users, infrastructure, and business-critical operational systems.</li>
+                <li>Managed enterprise IT systems and built SQL-based business applications supporting financial operations.</li>
                 <li>Created a web-based purchasing and accounts payable system supporting internal purchasing workflows, vendor purchase order access, and delivery coordination.</li>
-                <li>Designed and built internal systems for purchasing, order fulfillment, and member management workflows.</li>
-                <li>Developed a practical foundation in business operations, workflow automation, data management, and enterprise technology delivery.</li>
               </ul>
             </div>
-          </article> -->
+          </article>
+
+          <article class="job">
+            <div class="dates">1986 – 1996</div>
+            <div>
+              <h3>Access Development Corp <span>— System Administrator / Programmer</span></h3>
+              <ul>
+                <li>Built internal business systems for purchasing, order fulfillment, and member management workflows.</li>
+                <li>Migrated legacy applications to SQL-based client/server architecture.</li>
+              </ul>
+            </div>
+          </article>
         </div>
       </div>
     </section>
 
     <section id="skills">
       <div class="wrap">
-        <h2>Core skills</h2>
-        <p class="section-lead">A representative skills view assembled from resume portfolio.</p>
+        <h2>Toolkit</h2>
+        <p class="section-lead">The technologies I bring to an engagement.</p>
         <div class="card">
           <div class="chips">
+            <span class="chip">Multi-Tenant SaaS Architecture</span>
+            <span class="chip">Enterprise Integration</span>
+            <span class="chip">RabbitMQ / Kafka / Azure Service Bus</span>
+            <span class="chip">Docker / Kubernetes / CI/CD</span>
+            <span class="chip">React / TypeScript</span>
+            <span class="chip">GenAI-Assisted Development</span>
             <span class="chip">SQL Server</span>
             <span class="chip">T-SQL</span>
             <span class="chip">Azure SQL</span>
@@ -382,26 +453,16 @@ and <span class="brand-ref">Steton</span>.
 <!-- PM:COLLECTION-RESUMES -->
     <section id="resumes" data-collection data-collection-id="resumes" data-collection-mode="catalog">
       <div class="wrap">
-        <h2>Targeted resumes</h2>
+        <h2>Resume</h2>
         <p class="section-lead">
-          I maintain targeted versions of my resume based on the role.
+          Prefer a document? Here is the full resume to share with your team.
         </p>
 
-        <div id="resume-grid" class="grid-4">
+        <div id="resume-grid" class="grid-3">
           <div class="card resume-card">
-            <h3>SaaS/Platform Engineer</h3>
-            <p>Best for senior backend, platform, API, cloud, and multi-tenant SaaS roles.</p>
-            <div class="centered"><a class="btn btn-secondary" href="resumes/SaaS_resume.pdf" target="_blank" rel="noopener noreferrer">SaaS Resume</a></div>
-          </div>
-          <div class="card resume-card">
-            <h3>SQL Server/Data Platform</h3>
-            <p>Best for SQL Server, database performance, data platform, and database engineering roles.</p>
-            <div class="centered"><a class="btn btn-secondary" href="resumes/dba_resume.pdf" target="_blank" rel="noopener noreferrer">DBA Resume</a></div>
-          </div>
-          <div class="card resume-card">
-            <h3>IT/Network Administrator</h3>
-            <p>Best for IT support, network administration, and systems engineering roles.</p>
-            <div class="centered"><a class="btn btn-secondary" href="resumes/IT_Networking_resume.pdf" target="_blank" rel="noopener noreferrer">IT Resume</a></div>
+            <h3>Fractional Partner</h3>
+            <p>Use-case-led overview of where I help, how engagements work, and the full career behind it.</p>
+            <div class="centered"><a class="btn btn-secondary" href="resumes/fractional_partner_resume.pdf" target="_blank" rel="noopener noreferrer">Fractional Resume</a></div>
           </div>
         </div>
       </div>
@@ -411,9 +472,9 @@ and <span class="brand-ref">Steton</span>.
     <section id="contact">
       <div class="wrap">
         <div class="panel contact">
-          <h2>Let’s connect</h2>
+          <h2>Let’s talk about your platform</h2>
           <p>
-            I’m based in Long Beach, California and primarily interested in remote and hybrid senior-level opportunities, with availability for on-site work within Los Angeles and Orange Counties, across software engineering, dae performance, and data platform work.
+            Tell me what's slowing your product down. I'm based in Long Beach, California, work with teams remotely, and am available on-site across Los Angeles and Orange Counties for fractional, assessment, and rescue engagements.
           </p>
           <div class="cta-row" style="justify-content:center">
             <a class="btn btn-primary" href="mailto:davidomer@solutionsetal.com">davidomer@solutionsetal.com</a>

@@ -1,1 +1,12 @@
 /* Resume collection uses the established resume-card styles in assets/css/styles.css. */
+
+/* Single featured resume: center the section so it does not sit in one
+   column of a multi-column grid with empty space beside it. */
+#resumes .wrap { text-align: center; }
+#resumes .section-lead { margin-left: auto; margin-right: auto; }
+#resume-grid {
+  grid-template-columns: minmax(0, 560px);
+  justify-content: center;
+}
+#resume-grid .resume-card { text-align: center; padding: 30px 32px; }
+#resume-grid .resume-card h3 { font-size: 1.2rem; }

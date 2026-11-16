@@ -13,10 +13,10 @@
     "theme": "light",
     "kicker": "Resumes",
     "sectionId": "resumes",
-    "title": "Targeted resumes",
-    "summary": "I maintain targeted versions of my resume based on the role.",
+    "title": "Resume",
+    "summary": "Prefer a document? Here is the full resume to share with your team.",
     "contentId": "resume-grid",
-    "gridClass": "grid-4",
+    "gridClass": "grid-3",
     "cardClass": "card resume-card",
     "actionContainerClass": "centered",
     "buttonClass": "btn btn-secondary"
