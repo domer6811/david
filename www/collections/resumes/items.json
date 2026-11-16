@@ -1,5 +1,22 @@
 [
   {
+    "id": "fractional-partner",
+    "slug": "fractional-partner",
+    "status": "published",
+    "sortOrder": 0,
+    "title": "Fractional Partner",
+    "summary": "Use-case-led overview of where I help, how engagements work, and the full career behind it.",
+    "primaryAction": {
+      "label": "Fractional Resume",
+      "href": "resumes/fractional_partner_resume.pdf",
+      "openInNewTab": true
+    },
+    "secondaryAction": {
+      "label": "DOCX",
+      "href": "resumes/fractional_partner_resume.docx"
+    }
+  },
+  {
     "id": "saas-platform-engineer",
     "slug": "saas-platform-engineer",
     "status": "published",
