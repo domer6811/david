@@ -14,7 +14,7 @@
     "kicker": "Portfolio",
     "sectionId": "portfolio",
     "title": "Portfolio case studies",
-    "summary": "Generalized and anonymized write-ups of some of my work.",
+    "summary": "Generalized and anonymized examples of the integration, data, and platform work that informs my approach to AI implementation.",
     "note": "Portfolio write-ups demonstrate architecture, design approach, and technical communication. They do not contain proprietary client systems, code, data, diagrams, or confidential implementation details.",
     "contentId": "portfolio-grid",
     "gridClass": "grid-2",

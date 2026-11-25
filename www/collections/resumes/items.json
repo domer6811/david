@@ -4,15 +4,15 @@
     "slug": "fractional-partner",
     "status": "published",
     "sortOrder": 0,
-    "title": "Fractional Partner",
-    "summary": "Use-case-led overview of where I help, how engagements work, and the full career behind it.",
+    "title": "Fractional AI Partner & Integration Architect",
+    "summary": "AI and integration services, engagement options, and the experience behind them.",
     "primaryAction": {
-      "label": "Fractional Resume",
+      "label": "AI Partner Resume",
       "href": "resumes/fractional_partner_resume.pdf",
       "openInNewTab": true
     },
     "secondaryAction": {
-      "label": "DOCX",
+      "label": "Word version",
       "href": "resumes/fractional_partner_resume.docx"
     }
   },
