@@ -147,3 +147,13 @@ body[data-case-subtitle] .hero-card .notice strong { color: #fff; }
 @media (max-width: 760px) {
   main > section:target { min-height: auto; display: block; }
 }
+
+/* Stable section geometry lets Portmason align History API navigation without
+   relying on :target. Short sections occupy the complete usable frame. */
+main > section[id], main > section:target {
+  min-height: var(--pm-usable-vh, calc(100svh - var(--header-h) - var(--footer-h)));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main > section[id] > .wrap { flex-shrink: 0; }
