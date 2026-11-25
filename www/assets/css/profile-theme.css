@@ -85,8 +85,8 @@ h3 { line-height: 1.35; }
 .chips .chip:nth-child(-n+3) { background: #e5f0e9; color: #176451; border-color: #d3dfd5; font-weight: 600; }
 .centered { flex-wrap: wrap; gap: 10px; }
 #resume-grid { grid-template-columns: 1fr; }
-#resume-grid .resume-card { max-width: 760px; }
-#resume-grid .centered { justify-content: flex-start; }
+#resume-grid .resume-card { max-width: 760px; width: 100%; margin-left: auto; margin-right: auto; }
+#resume-grid .centered { justify-content: center; }
 .contact { padding: 48px 32px; background: #123d30; border-color: #123d30; }
 .contact h2 { color: #fff; }
 .contact p { color: #dce9df; max-width: 72ch; }
